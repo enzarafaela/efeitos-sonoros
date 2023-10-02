@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+}
+
+header {
+    background-color: green;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.efeito {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 200px;
+    height: 190px;
+    background: url(transparent_button_normal.png.pagespeed.ce._PQuVSQuHh.png) no-repeat;
+    border: 0;
+    display: block;
+    -webkit-tap-highlight-color: transparent;
+    background-color: green;
+
+
+}
+
+
+.efeitos-container {
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.audio-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.audio-container p {
+    font-size: 1.5rem;
+}
