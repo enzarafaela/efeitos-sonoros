@@ -18,43 +18,33 @@ const criarContainer = () => {
 const audios = [
     {
         audio: './audios/asmei.mp3',
-        description: ''
     },
     {
         audio: './audios/brasil.mp3',
-        description: ''
     },
     {
         audio: './audios/meu-patrao.mp3',
-        description: ''
     },
     {
         audio: './audios/irra.mp3',
-        description: ''
     },
     {
-        audio: './audios/joaokleber.mp3',
-        description: ''
+        audio: './audios/para-tudo.mp3',
     },
     {
         audio: './audios/pare.mp3',
-        description: ''
     },
     {
         audio: './audios/rapaz.mp3',
-        description: ''
     },
     {
         audio: './audios/ratinho.mp3',
-        description: ''
     },
     {
         audio: './audios/uepa.mp3',
-        description: ''
     },
     {
         audio: './audios/xiii.mp3',
-        description: ''
     },
 ];
 
@@ -72,7 +62,7 @@ const criarBotoes = () => {
 
         const texto = document.createElement('p');
         texto.innerText = audio.audio.replace('./audios/', '');
-        texto.innerText = texto.innerText.replace('.mp3', '');
+        texto.innerText = texto.innerText.replace('.mp3', '').toUpperCase();
 
         containerAudio.appendChild(divEfeito);
         containerAudio.appendChild(texto);

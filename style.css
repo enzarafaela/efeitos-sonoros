@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 main {
     height: 100vh;
 }
@@ -28,7 +32,7 @@ header {
 
     width: 200px;
     height: 190px;
-    background: url(transparent_button_normal.png.pagespeed.ce._PQuVSQuHh.png) no-repeat;
+    background: url(./transparent_button_normal.png.pagespeed.ce._PQuVSQuHh.png) no-repeat;
     border: 0;
     display: block;
     -webkit-tap-highlight-color: transparent;
